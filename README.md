@@ -68,27 +68,27 @@ Below are key visualizations generated during the Exploratory Data Analysis and 
 ### Exploratory Data Analysis
 
 **Study Hours per Week vs. Grade**
-![Study Hours vs Grade](results_images/figure_1.png)
+![Study Hours vs Grade](results_images/Study_Hours_vs_Grade.png)
 
 **Attendance Percentage vs. Grade**
-![Attendance vs Grade](results_images/figure_2.png)
+![Attendance vs Grade](results_images/Attendance_vs_Grade.png)
 
 **Midterm Score vs. Grade**
-![Midterm vs Grade](results_images/figure_3.png)
+![Midterm vs Grade](results_images/Midterm_Score_vs_Grade.png)
 
 **Previous GPA vs. Grade**
-![Previous GPA vs Grade](results_images/figure_4.png)
+![Previous GPA vs Grade](results_images/Previous_GPA_vs_Grade.png)
 
 **Correlation Heatmap**
-![Correlation Heatmap](results_images/figure_5.png)
+![Correlation Heatmap](results_images/Correlation_Heatmap.png)
 
 ### Model Evaluation
 
 **Model Comparison Across Metrics**
-![Model Comparison](results_images/figure_6.png)
+![Model Comparison](results_images/Model_Comparison_Metrics.png)
 
 **Accuracy Comparison: With vs. Without `previous_gpa`**
-![Feature Selection Comparison](results_images/figure_7.png)
+![Feature Selection Comparison](results_images/Feature_Selection_Comparison.png)
 
 ## Repository Structure
 
