@@ -1,0 +1,8 @@
+plt.figure(figsize=(7, 5))
+sns.boxplot(data=df, x='grade', y='attendance_percentage', order=order, palette='Set2')
+plt.title('Attendance Percentage vs. Grade')
+plt.xlabel('Grade')
+plt.ylabel('Attendance Percentage')
+plt.tight_layout()
+plt.savefig(os.path.join(DRIVE_OUTPUT_DIR, 'figures', 'attendance_vs_grade.png'))
+plt.show()
