@@ -67,48 +67,68 @@ Below are key visualizations generated during the Exploratory Data Analysis and 
 
 ### Exploratory Data Analysis
 
-**Distribution of Grades**
-![Distribution of Grades](results_images/Distribution_of_Grades.png)
+<div align="center">
+  <h4>Distribution of Grades</h4>
+  <img src="results_images/Distribution_of_Grades.png" width="600"/>
+  <br><br>
 
-**Study Hours per Week vs. Grade**
-![Study Hours vs Grade](results_images/Study_Hours_vs_Grade.png)
+  <h4>Study Hours per Week vs. Grade</h4>
+  <img src="results_images/Study_Hours_vs_Grade.png" width="600"/>
+  <br><br>
 
-**Attendance Percentage vs. Grade**
-![Attendance vs Grade](results_images/Attendance_Percentage_vs_Grade.png)
+  <h4>Attendance Percentage vs. Grade</h4>
+  <img src="results_images/Attendance_Percentage_vs_Grade.png" width="600"/>
+  <br><br>
 
-**Midterm Score vs. Grade**
-![Midterm vs Grade](results_images/Midterm_Score_vs_Grade.png)
+  <h4>Midterm Score vs. Grade</h4>
+  <img src="results_images/Midterm_Score_vs_Grade.png" width="600"/>
+  <br><br>
 
-**Previous GPA vs. Grade**
-![Previous GPA vs Grade](results_images/Previous_GPA_vs_Grade.png)
+  <h4>Previous GPA vs. Grade</h4>
+  <img src="results_images/Previous_GPA_vs_Grade.png" width="600"/>
+  <br><br>
 
-**Correlation Heatmap**
-![Correlation Heatmap](results_images/Correlation_Heatmap.png)
+  <h4>Correlation Heatmap</h4>
+  <img src="results_images/Correlation_Heatmap.png" width="600"/>
+</div>
+
+<br>
 
 ### Model Evaluation (Confusion Matrices)
 
-**Logistic Regression**
-![Logistic Regression Confusion Matrix](results_images/Logistic_Regression_Confusion_Matrix.png)
+<div align="center">
+  <h4>Logistic Regression</h4>
+  <img src="results_images/Logistic_Regression_Confusion_Matrix.png" width="500"/>
+  <br><br>
 
-**Random Forest**
-![Random Forest Confusion Matrix](results_images/Random_Forest_Confusion_Matrix.png)
+  <h4>Random Forest</h4>
+  <img src="results_images/Random_Forest_Confusion_Matrix.png" width="500"/>
+  <br><br>
 
-**SVM**
-![SVM Confusion Matrix](results_images/SVM_Confusion_Matrix.png)
+  <h4>SVM</h4>
+  <img src="results_images/SVM_Confusion_Matrix.png" width="500"/>
+  <br><br>
 
-**KNN**
-![KNN Confusion Matrix](results_images/KNN_Confusion_Matrix.png)
+  <h4>KNN</h4>
+  <img src="results_images/KNN_Confusion_Matrix.png" width="500"/>
+  <br><br>
 
-**Naive Bayes**
-![Naive Bayes Confusion Matrix](results_images/Naive_Bayes_Confusion_Matrix.png)
+  <h4>Naive Bayes</h4>
+  <img src="results_images/Naive_Bayes_Confusion_Matrix.png" width="500"/>
+</div>
+
+<br>
 
 ### Final Comparisons
 
-**Model Comparison Across Metrics**
-![Model Comparison Across Metrics](results_images/Model_Comparison_Across_Metrics.png)
+<div align="center">
+  <h4>Model Comparison Across Metrics</h4>
+  <img src="results_images/Model_Comparison_Across_Metrics.png" width="700"/>
+  <br><br>
 
-**Accuracy Comparison: With vs. Without `previous_gpa`**
-![Feature Selection GPA Comparison](results_images/Feature_Selection_GPA_Comparison.png)
+  <h4>Accuracy Comparison: With vs. Without previous_gpa</h4>
+  <img src="results_images/Feature_Selection_GPA_Comparison.png" width="700"/>
+</div>
 
 ## Repository Structure
 
