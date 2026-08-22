@@ -1,0 +1,12 @@
+plt.figure(figsize=(9, 5))
+comparison_df[['Accuracy', 'Precision (macro)', 'Recall (macro)', 'F1-score (macro)']].plot(
+    kind='bar', figsize=(9, 5)
+)
+plt.title('Model Comparison Across Metrics')
+plt.ylabel('Score')
+plt.xticks(rotation=20)
+plt.ylim(0, 1)
+plt.legend(loc='lower right')
+plt.tight_layout()
+plt.savefig(os.path.join(DRIVE_OUTPUT_DIR, 'figures', 'model_comparison.png'))
+plt.show()
