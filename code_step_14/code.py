@@ -1,8 +1,0 @@
-plt.figure(figsize=(7, 5))
-sns.boxplot(data=df, x='grade', y='midterm_score', order=order, palette='Set2')
-plt.title('Midterm Score vs. Grade')
-plt.xlabel('Grade')
-plt.ylabel('Midterm Score')
-plt.tight_layout()
-plt.savefig(os.path.join(DRIVE_OUTPUT_DIR, 'figures', 'midterm_vs_grade.png'))
-plt.show()

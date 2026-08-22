@@ -1,8 +1,0 @@
-plt.figure(figsize=(7, 5))
-sns.boxplot(data=df, x='grade', y='previous_gpa', order=order, palette='Set2')
-plt.title('Previous GPA vs. Grade')
-plt.xlabel('Grade')
-plt.ylabel('Previous GPA')
-plt.tight_layout()
-plt.savefig(os.path.join(DRIVE_OUTPUT_DIR, 'figures', 'previous_gpa_vs_grade.png'))
-plt.show()
