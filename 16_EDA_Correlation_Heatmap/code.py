@@ -1,0 +1,7 @@
+plt.figure(figsize=(8, 6))
+corr = df[numeric_cols].corr()
+sns.heatmap(corr, annot=True, fmt='.2f', cmap='coolwarm', center=0)
+plt.title('Correlation Heatmap of Numerical Features')
+plt.tight_layout()
+plt.savefig(os.path.join(DRIVE_OUTPUT_DIR, 'figures', 'correlation_heatmap.png'))
+plt.show()
