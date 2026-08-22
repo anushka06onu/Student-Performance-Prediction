@@ -67,11 +67,14 @@ Below are key visualizations generated during the Exploratory Data Analysis and 
 
 ### Exploratory Data Analysis
 
+**Distribution of Grades**
+![Distribution of Grades](results_images/Distribution_of_Grades.png)
+
 **Study Hours per Week vs. Grade**
 ![Study Hours vs Grade](results_images/Study_Hours_vs_Grade.png)
 
 **Attendance Percentage vs. Grade**
-![Attendance vs Grade](results_images/Attendance_vs_Grade.png)
+![Attendance vs Grade](results_images/Attendance_Percentage_vs_Grade.png)
 
 **Midterm Score vs. Grade**
 ![Midterm vs Grade](results_images/Midterm_Score_vs_Grade.png)
@@ -82,19 +85,36 @@ Below are key visualizations generated during the Exploratory Data Analysis and 
 **Correlation Heatmap**
 ![Correlation Heatmap](results_images/Correlation_Heatmap.png)
 
-### Model Evaluation
+### Model Evaluation (Confusion Matrices)
+
+**Logistic Regression**
+![Logistic Regression Confusion Matrix](results_images/Logistic_Regression_Confusion_Matrix.png)
+
+**Random Forest**
+![Random Forest Confusion Matrix](results_images/Random_Forest_Confusion_Matrix.png)
+
+**SVM**
+![SVM Confusion Matrix](results_images/SVM_Confusion_Matrix.png)
+
+**KNN**
+![KNN Confusion Matrix](results_images/KNN_Confusion_Matrix.png)
+
+**Naive Bayes**
+![Naive Bayes Confusion Matrix](results_images/Naive_Bayes_Confusion_Matrix.png)
+
+### Final Comparisons
 
 **Model Comparison Across Metrics**
-![Model Comparison](results_images/Model_Comparison_Metrics.png)
+![Model Comparison Across Metrics](results_images/Model_Comparison_Across_Metrics.png)
 
 **Accuracy Comparison: With vs. Without `previous_gpa`**
-![Feature Selection Comparison](results_images/Feature_Selection_Comparison.png)
+![Feature Selection GPA Comparison](results_images/Feature_Selection_GPA_Comparison.png)
 
 ## Repository Structure
 
-The code from the original Jupyter Notebook has been modularized into sequential steps with descriptive folder names:
-- `01_Google_Drive_Setup` to `28_Final_Empty_Cell`: These folders contain the individual code blocks extracted sequentially from the analysis notebook, representing the step-by-step pipeline from data loading to model saving.
-- `results_images/`: Contains all the figures and plots generated during the analysis.
+The code from the original Jupyter Notebook has been modularized into sequential steps:
+- `01_Google_Drive_Setup.py` to `28_Final_Empty_Cell.py`: These 28 independent Python scripts represent the sequential steps of the analysis pipeline.
+- `results_images/`: Contains all the figures, plots, and confusion matrices generated during the analysis.
 
 ## Conclusion
 
