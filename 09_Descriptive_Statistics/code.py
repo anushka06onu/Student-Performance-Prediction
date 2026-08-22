@@ -1,1 +1,0 @@
-df[numeric_cols].describe()
